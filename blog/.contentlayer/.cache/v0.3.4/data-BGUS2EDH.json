@@ -1,0 +1,36 @@
+{
+  "cacheItemsMap": {
+    "blog-content/index.mdx": {
+      "document": {
+        "title": "Blog Content Title",
+        "publishedAt": "2024-06-14T00:00:00.000Z",
+        "updatedAt": "2024-06-14T00:00:00.000Z",
+        "description": "This is the description for blog content.",
+        "image": "../../public/BlogImages/blog-image-1.jpg",
+        "isPublished": true,
+        "author": "Achiomwa",
+        "tags": [
+          "productivity",
+          "css\r"
+        ],
+        "body": {
+          "raw": "\r\n\r\n# This is Heading 1\r\n## This is Heading 2",
+          "html": "<h1>This is Heading 1</h1>\n<h2>This is Heading 2</h2>"
+        },
+        "_id": "blog-content/index.mdx",
+        "_raw": {
+          "sourceFilePath": "blog-content/index.mdx",
+          "sourceFileName": "index.mdx",
+          "sourceFileDir": "blog-content",
+          "contentType": "mdx",
+          "flattenedPath": "blog-content"
+        },
+        "type": "Blog",
+        "url": "/blogs/blog-content"
+      },
+      "documentHash": "1718392981910",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    }
+  }
+}
