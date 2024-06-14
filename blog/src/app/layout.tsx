@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Raleway } from "next/font/google";
 import "./globals.css";
-import { cx } from "../utils";
+import { cx } from "../utils/index";
 
 const raleway = Raleway({ subsets: ["latin"], display: "swap", variable: "--font-ra" });
 
