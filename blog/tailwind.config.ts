@@ -15,6 +15,10 @@ const config: Config = {
         accentDark: "#ffdb4d",
         gray: "#747474",
       },
+      fontFamily: {
+        ma: ["var(--font-ma)"],
+        ra: ["var(--font-ra)"],
+      },
     },
   },
   plugins: [],
