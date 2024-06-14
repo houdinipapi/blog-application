@@ -3,6 +3,9 @@ import Logo from './Logo';
 import Link from 'next/link';
 import LinkedinIcon from '../Icons/Icons';
 import Github from '../Icons/Github';
+import TwitterIcon from '../Icons/Twitter';
+import DribbleIcon from '../Icons/Dribbble';
+import SunIcon from '../Icons/Sun';
 
 const Header = () => {
   return (
@@ -12,14 +15,48 @@ const Header = () => {
         <Link href="/" className='mr-2' title='Home'>Home</Link>
         <Link href="/about" className='mx-2' title='About'>About</Link>
         <Link href="/contact" className='mr-2' title='Contact'>Contact</Link>
-        <button>T</button>
+        <button title="Toggle Theme">
+          <SunIcon className={undefined} />
+        </button>
       </nav>
       <div>
-        <a title='LinkedinIcon' href="http://example.com" className='inline-block w-6 h-6 mr-4'><LinkedinIcon className={undefined} /></a>
-        <a href="http://example.com">Twitter</a>
-        <a href="http://example.com">Facebook</a>
-        <a title='GithubIcon' href="http://example.com"><Github className={undefined} /></a>
-        <a href="http://example.com">Dribbble</a>
+        
+        {/* Linkedin */}
+        <a
+          title='LinkedinIcon'
+          href="http://example.com"
+          className='inline-block w-6 h-6 mr-4'
+        >
+          <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
+        </a>
+
+        {/* Twitter */}
+        <a
+          title='TwitterIcon'
+          href="http://example.com"
+          className='inline-block w-6 h-6 mr-4'
+        >
+          <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
+        </a>
+
+        {/* Github */}
+        <a
+          title='GithubIcon'
+          href="http://example.com"
+          className='inline-block w-6 h-6 mr-4'
+        >
+          <Github className="hover:scale-125 transition-all ease duration-200" />
+        </a>
+
+        {/* Dribble */}
+        <a
+          title='DribbbleIcon'
+          href="http://example.com"
+          className='inline-block w-6 h-6 mr-4'
+        >
+          <DribbleIcon className="hover:scale-125 transition-all ease duration-200" />
+        </a>
+
       </div>
     </header>
   );
