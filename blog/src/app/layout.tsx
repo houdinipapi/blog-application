@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Raleway } from "next/font/google";
 import "./globals.css";
 import { cx } from "../utils/index";
+import Header from "@/components/Header";
 
 const raleway = Raleway({ subsets: ["latin"], display: "swap", variable: "--font-ra" });
 
@@ -23,9 +24,10 @@ export default function RootLayout({
         className={cx(
           raleway.variable,
           manrope.variable,
-          "font-ra bg-light dark:bg-dark"
+          "font-ra bg-light"
         )}
       >
+        <Header />
         {children}
       </body>
     </html>
