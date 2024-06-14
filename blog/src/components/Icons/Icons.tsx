@@ -29,3 +29,5 @@ const LinkedinIcon = ({className, ...rest}: {className: any}) => (
   </svg>
 )
 export default LinkedinIcon;
+
+
