@@ -5,16 +5,16 @@ import profileImg from "/public/profblk-img.png"
 
 const Logo = () => {
   return (
-    <Link href="/">
-        <div className='w-16 rounded-full overflow-hidden border border-solid border-dark'>
+    <Link href="/" className='text-dark flex items-center'>
+        <div className='w-16 rounded-full overflow-hidden border border-solid border-dark mr-4'>
             <Image
                 src={profileImg}
                 alt="Profile Logo"
-                className='w-full rounded-full'
+                className='w-full h-auto rounded-full'
             />
         </div>
 
-        <span>Achiomwa</span>
+        <span className='font-bold text-xl'>Achiomwa</span>
     </Link>
   )
 }
