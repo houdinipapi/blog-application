@@ -12,13 +12,13 @@ const HomeCoverSect = ({blogs}: Props) => {
 
     const sortedBlogs = sortBlogs(blogs);
 
-    const blog = sortedBlogs[0];
+    const blog = sortedBlogs[3];
 
     return (
         <div className='w-full inline-block'>
             <article className='flex flex-col items-start justify-end mx-10 relative h-[85vh]'>
                 <div
-                    className="absolute top-0 left-0 bottom-0 right-0 h-full bg-gradient-to-b from-transparent from-0% to-dark rounded-3xl z-0"
+                    className="absolute top-0 left-0 bottom-0 right-0 h-full bg-gradient-to-b from-transparent from-0% to-dark/90 rounded-3xl z-0"
                 />
                 <Image
                     src={blog.image.filePath.replace("../public", "")}
@@ -37,10 +37,15 @@ const HomeCoverSect = ({blogs}: Props) => {
                         link={`/categories/${blog.tags[0]}`}
                         name={blog.tags[0]}
                     />
-                    <h1>
-                        {blog.title}
-                    </h1>
-                    <p>
+                    <Link href={blog.url} className='mt-6'>
+                        <h1 className='text-4xl capitalize font-bold'>
+                            <span className='bg-gradient-to-r from-accent to-accent bg-[length:0px_6px] hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500'>
+                                {blog.title}
+                            </span>
+                        </h1>
+                    </Link>
+                    
+                    <p className='inline-block mt-4 text-xl font-ra'>
                         {blog.description}
                     </p>
                 </div>
