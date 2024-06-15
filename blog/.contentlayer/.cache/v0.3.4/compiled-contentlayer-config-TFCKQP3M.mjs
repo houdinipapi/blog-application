@@ -21,8 +21,7 @@ var Blog = defineDocumentType(() => ({
       required: true
     },
     image: {
-      type: "string",
-      required: true
+      type: "image"
     },
     isPublished: {
       type: "boolean",
@@ -53,4 +52,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-BGUS2EDH.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-TFCKQP3M.mjs.map

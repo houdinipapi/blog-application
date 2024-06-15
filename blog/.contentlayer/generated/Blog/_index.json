@@ -4,7 +4,15 @@
     "publishedAt": "2024-06-14T00:00:00.000Z",
     "updatedAt": "2024-06-14T00:00:00.000Z",
     "description": "This is the description for blog content.",
-    "image": "../../public/BlogImages/blog-image-1.jpg",
+    "image": {
+      "filePath": "../public/BlogImages/blog-image-1.jpg",
+      "relativeFilePath": "../../public/BlogImages/blog-image-1.jpg",
+      "format": "jpeg",
+      "height": 4160,
+      "width": 6240,
+      "aspectRatio": 1.5,
+      "blurhashDataUrl": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABBAMAAwAAAAAAAAAAAAABAAIDIQQGEQUTQf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAES/9oADAMBAAIRAxEAPwCprWFs0uSR5WWY4c8Lg18vHeqqIuuiqsc+IiIhFWz/2Q=="
+    },
     "isPublished": true,
     "author": "Achiomwa",
     "tags": [
@@ -31,7 +39,15 @@
     "publishedAt": "2024-06-15T00:00:00.000Z",
     "updatedAt": "2024-06-15T00:00:00.000Z",
     "description": "How to deploy your Next.js apps on Vercel.",
-    "image": "../../public/BlogImages/blog-image-4.jpg",
+    "image": {
+      "filePath": "../public/BlogImages/blog-image-4.jpg",
+      "relativeFilePath": "../../public/BlogImages/blog-image-4.jpg",
+      "format": "jpeg",
+      "height": 3840,
+      "width": 5760,
+      "aspectRatio": 1.5,
+      "blurhashDataUrl": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAAP/EAB8QAAEDBAMBAAAAAAAAAAAAAAEAAgMEBRESBiEiYf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIS/9oADAMBAAIRAxEAPwBaORTWSifTkiWmfHhjtPTDnOv0dlERHKGro//Z"
+    },
     "isPublished": true,
     "author": "Achiomwa",
     "tags": [
@@ -57,7 +73,15 @@
     "publishedAt": "2024-06-15T00:00:00.000Z",
     "updatedAt": "2024-06-15T00:00:00.000Z",
     "description": "How to deploy your Next.js apps on Vercel.",
-    "image": "../../public/BlogImages/blog-image-1.jpg",
+    "image": {
+      "filePath": "../public/BlogImages/blog-image-1.jpg",
+      "relativeFilePath": "../../public/BlogImages/blog-image-1.jpg",
+      "format": "jpeg",
+      "height": 4160,
+      "width": 6240,
+      "aspectRatio": 1.5,
+      "blurhashDataUrl": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABBAMAAwAAAAAAAAAAAAABAAIDIQQGEQUTQf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAES/9oADAMBAAIRAxEAPwCprWFs0uSR5WWY4c8Lg18vHeqqIuuiqsc+IiIhFWz/2Q=="
+    },
     "isPublished": true,
     "author": "Achiomwa",
     "tags": [
@@ -83,7 +107,15 @@
     "publishedAt": "2024-06-15T00:00:00.000Z",
     "updatedAt": "2024-06-15T00:00:00.000Z",
     "description": "How to deploy your Next.js apps on Vercel.",
-    "image": "../../public/BlogImages/blog-image-3.jpg",
+    "image": {
+      "filePath": "../public/BlogImages/blog-image-3.jpg",
+      "relativeFilePath": "../../public/BlogImages/blog-image-3.jpg",
+      "format": "jpeg",
+      "height": 3983,
+      "width": 5974,
+      "aspectRatio": 1.4998744664825507,
+      "blurhashDataUrl": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAgEAAABQMFAAAAAAAAAAAAAAAAAQIDBAUhMRETIkFh/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABkRAAIDAQAAAAAAAAAAAAAAAAECAAMEEf/aAAwDAQACEQMRAD8Au9BS3RScXspcTI1VJOPxU30RWuR4x6AADvodSAIpM1bjpn//2Q=="
+    },
     "isPublished": true,
     "author": "Achiomwa",
     "tags": [
@@ -109,7 +141,15 @@
     "publishedAt": "2024-06-15T00:00:00.000Z",
     "updatedAt": "2024-06-15T00:00:00.000Z",
     "description": "How to deploy your Next.js apps on Vercel.",
-    "image": "../../public/BlogImages/blog-image-2.jpg",
+    "image": {
+      "filePath": "../public/BlogImages/blog-image-2.jpg",
+      "relativeFilePath": "../../public/BlogImages/blog-image-2.jpg",
+      "format": "jpeg",
+      "height": 3391,
+      "width": 5086,
+      "aspectRatio": 1.4998525508699498,
+      "blurhashDataUrl": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABBAMAAwAAAAAAAAAAAAADAAECBAUREiFRsf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARMCMf/aAAwDAQACEQMRAD8AvCy5a1nIBPZlaiWGgxFHthv1536bXx0RENNLg00z/9k="
+    },
     "isPublished": true,
     "author": "Achiomwa",
     "tags": [
