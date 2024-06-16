@@ -1,6 +1,7 @@
 import { sortBlogs } from '@/utils';
 import React from 'react'
 import FirstBlogLayout from '../BlogLayouts/FirstBlogLayout';
+import SecondBlogLayout from '../BlogLayouts/SecondBlogLayout';
 
 interface Props {
   blogs: any[];
@@ -23,11 +24,11 @@ const FeaturedPosts = ({blogs}: Props) => {
           </article>
 
           <article className='col-span-1 row-span-1 relative'>
-            blog layout 2
+            <SecondBlogLayout blog={sortedBlogs[3]} />
           </article>
 
           <article className='col-span-1 row-span-1 relative'>
-            blog layout 3
+            <SecondBlogLayout blog={sortedBlogs[4]} />
           </article>
 
         </div>

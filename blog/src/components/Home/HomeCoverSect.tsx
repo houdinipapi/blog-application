@@ -12,7 +12,7 @@ const HomeCoverSect = ({blogs}: Props) => {
 
     const sortedBlogs = sortBlogs(blogs);
 
-    const blog = sortedBlogs[3];
+    const blog = sortedBlogs[0];
 
     return (
         <div className='w-full inline-block'>
