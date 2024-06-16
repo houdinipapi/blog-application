@@ -32,7 +32,7 @@ const Footer = () => {
                     type="text"
                     placeholder="Enter Your Email..."
                     {...register("Email", {required: true})}
-                    className='w-full bg-transparent text-dark focus:border-dark focus:ring-0 border-0 border-b mr-2 pb-1'
+                    className='w-full bg-transparent pl-0 text-dark focus:border-dark focus:ring-0 border-0 border-b mr-2 pb-1'
                 />
 
                 <input
