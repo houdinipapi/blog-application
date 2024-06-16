@@ -2,6 +2,11 @@
 
 import React from 'react'
 import { useForm } from 'react-hook-form';
+import LinkedinIcon from '../Icons/Icons';
+import TwitterIcon from '../Icons/Twitter';
+import Github from '../Icons/Github';
+import DribbleIcon from '../Icons/Dribbble';
+import Link from 'next/link';
 
 const Footer = () => {
 
@@ -36,7 +41,55 @@ const Footer = () => {
                 />
             </form>
 
+            <div className='flex items-center mt-8'>
+        
+                {/* Linkedin */}
+                <a
+                title='LinkedinIcon'
+                href="http://example.com"
+                className='inline-block w-6 h-6 mr-4'
+                >
+                    <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
+                </a>
 
+                {/* Twitter */}
+                <a
+                title='TwitterIcon'
+                href="http://example.com"
+                className='inline-block w-6 h-6 mr-4'
+                >
+                    <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
+                </a>
+
+                {/* Github */}
+                <a
+                title='GithubIcon'
+                href="http://example.com"
+                className='inline-block w-6 h-6 mr-4 fill-light'
+                >
+                    <Github className="hover:scale-125 transition-all ease duration-200" />
+                </a>
+
+                {/* Dribble */}
+                <a
+                title='DribbbleIcon'
+                href="http://example.com"
+                className='inline-block w-6 h-6 mr-4'
+                >
+                    <DribbleIcon className="hover:scale-125 transition-all ease duration-200" />
+                </a>
+
+            </div>
+
+            <div className='w-full mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex flex-row items-center justify-between'>
+                <span className='text-center'>&copy; 2024 Achiomwa. All rights reserved.</span>
+                <Link href="/sitemap.xml" className='text-center underline'>
+                    sitemap.xml
+                </Link>
+                <div className='text-center'>
+                    Made with &hearts; by <a href="#" className='underline'>Achiomwa</a>
+                </div>
+            </div>
 
         </footer>
     );
