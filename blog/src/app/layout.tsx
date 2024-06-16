@@ -3,6 +3,7 @@ import { Manrope, Raleway } from "next/font/google";
 import "./globals.css";
 import { cx } from "../utils/index";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const raleway = Raleway({ subsets: ["latin"], display: "swap", variable: "--font-ra" });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
