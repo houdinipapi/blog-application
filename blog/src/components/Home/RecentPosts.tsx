@@ -1,6 +1,7 @@
 import { sortBlogs } from '@/utils';
 import Link from 'next/link';
 import React from 'react'
+import ThirdBlogLayout from '../BlogLayouts/ThirdBlogLayout';
 
 
 interface Props {
@@ -35,7 +36,7 @@ const RecentPosts = ({blogs}: Props) => {
                 sortedBlogs.slice(0, 6).map((blog, index) => {
                     return (
                         <article className='col-span-1 row-span-1 relative'>
-                            Blog Layout 3
+                            <ThirdBlogLayout blog={blog} />
                         </article>
                     )
                 })

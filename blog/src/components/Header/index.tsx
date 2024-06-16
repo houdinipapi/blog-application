@@ -11,10 +11,10 @@ const Header = () => {
   return (
     <header className="w-full p-4 px-10 flex items-center justify-between">
       <Logo />
-      <nav className='w-max py-3 px-8 border border-solid border-dark rounded-full font-medium capitalize flex items-center fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm'>
+      <nav className='w-max py-3 px-8 border border-solid border-dark rounded-full font-medium capitalize flex items-center fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm z-50'>
         <Link href="/" className='mr-2' title='Home'>Home</Link>
         <Link href="/about" className='mx-2' title='About'>About</Link>
-        <Link href="/contact" className='mr-2' title='Contact'>Contact</Link>
+        <Link href="/contact" className='mx-2' title='Contact'>Contact</Link>
         <button title="Toggle Theme">
           <SunIcon className={undefined} />
         </button>

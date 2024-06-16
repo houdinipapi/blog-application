@@ -8,11 +8,11 @@ interface Props {
   blog: any; // Replace 'any' with the actual type of the 'blog' prop
 }
 
-const SecondBlogLayout = ({blog}: Props) => {
+const ThirdBlogLayout = ({blog}: Props) => {
   return (
-    <div className='group grid grid-cols-12 gap-4 items-center text-dark'>
+    <div className='flex flex-col items-center text-dark group'>
 
-        <Link href={blog.url} className='col-span-4 h-full rounded-xl overflow-hidden'>
+        <Link href={blog.url} className='h-full rounded-xl overflow-hidden'>
             <Image
                 src={blog.image.filePath.replace("../public", "")}
                 placeholder='blur'
@@ -20,11 +20,11 @@ const SecondBlogLayout = ({blog}: Props) => {
                 alt={blog.title}
                 width={blog.image.width}
                 height={blog.image.height}
-                className='group-hover:scale-105 transition-all ease duration-300 aspect-square w-full h-full object-center object-cover rounded-xl'
+                className='group-hover:scale-105 transition-all ease duration-300 aspect-[4/3] w-full h-full object-center object-cover rounded-xl'
             />
         </Link>
 
-        <div className="col-span-8 w-full">
+        <div className="flex flex-col mt-4 w-full">
             {/* <Link href={`/categories/${blog.tags[0]}`}>
                 {blog.tags[0]}
             </Link> */}
@@ -57,4 +57,4 @@ const SecondBlogLayout = ({blog}: Props) => {
   )
 }
 
-export default SecondBlogLayout;
+export default ThirdBlogLayout;
