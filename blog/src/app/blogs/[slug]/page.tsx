@@ -26,31 +26,29 @@ export default function Page({ params }: { params: { slug: string } }) {
                     </h1>
                 </div>
 
-                <div className="absolute top-0 left-0 right-0 bottom-0 h-full bg-dark/60">
+                <div className="absolute top-0 left-0 right-0 bottom-0 h-full bg-dark/60" />
 
 
-                    {blog && (
-                        <Image
-                            src={blog.image.filePath.replace("../public", "")}
-                            placeholder='blur'
-                            blurDataURL={blog.image.blurhashDataUrl}
-                            alt={blog.title}
-                            width={blog.image.width}
-                            height={blog.image.height}
-                            className='aspect-square w-full h-full object-center object-cover'
-                        />
-                    )}
-                    {/* <Image
+                {blog && (
+                    <Image
                         src={blog.image.filePath.replace("../public", "")}
                         placeholder='blur'
                         blurDataURL={blog.image.blurhashDataUrl}
                         alt={blog.title}
                         width={blog.image.width}
                         height={blog.image.height}
-                        className='group-hover:scale-105 transition-all ease duration-300 aspect-square w-full h-full object-center object-cover rounded-xl'
-                    /> */}
-
-                </div>
+                        className='aspect-square w-full h-full object-center object-cover'
+                    />
+                )}
+                {/* <Image
+                    src={blog.image.filePath.replace("../public", "")}
+                    placeholder='blur'
+                    blurDataURL={blog.image.blurhashDataUrl}
+                    alt={blog.title}
+                    width={blog.image.width}
+                    height={blog.image.height}
+                    className='group-hover:scale-105 transition-all ease duration-300 aspect-square w-full h-full object-center object-cover rounded-xl'
+                /> */}
             </div>
         </article>
     );
