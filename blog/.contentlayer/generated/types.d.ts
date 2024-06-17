@@ -24,6 +24,7 @@ export type Blog = {
   /** Markdown file body */
   body: Markdown
   url: string
+  readingTime: json
 }  
 
 /** Nested types */

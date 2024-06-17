@@ -31,5 +31,11 @@
     "flattenedPath": "blog-content"
   },
   "type": "Blog",
-  "url": "/blogs/blog-content"
+  "url": "/blogs/blog-content",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.05,
+    "time": 3000,
+    "words": 10
+  }
 }

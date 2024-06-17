@@ -34,7 +34,13 @@
           "flattenedPath": "blog-content"
         },
         "type": "Blog",
-        "url": "/blogs/blog-content"
+        "url": "/blogs/blog-content",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.05,
+          "time": 3000,
+          "words": 10
+        }
       },
       "documentHash": "1718392981910",
       "hasWarnings": false,
@@ -73,7 +79,13 @@
           "flattenedPath": "Blog-Five"
         },
         "type": "Blog",
-        "url": "/blogs/Blog-Five"
+        "url": "/blogs/Blog-Five",
+        "readingTime": {
+          "text": "10 min read",
+          "minutes": 9.41,
+          "time": 564600,
+          "words": 1882
+        }
       },
       "documentHash": "1718476285965",
       "hasWarnings": false,
@@ -112,7 +124,13 @@
           "flattenedPath": "Blog-Four"
         },
         "type": "Blog",
-        "url": "/blogs/Blog-Four"
+        "url": "/blogs/Blog-Four",
+        "readingTime": {
+          "text": "10 min read",
+          "minutes": 9.41,
+          "time": 564600,
+          "words": 1882
+        }
       },
       "documentHash": "1718476285965",
       "hasWarnings": false,
@@ -151,7 +169,13 @@
           "flattenedPath": "Blog-One"
         },
         "type": "Blog",
-        "url": "/blogs/Blog-One"
+        "url": "/blogs/Blog-One",
+        "readingTime": {
+          "text": "10 min read",
+          "minutes": 9.41,
+          "time": 564600,
+          "words": 1882
+        }
       },
       "documentHash": "1718476046684",
       "hasWarnings": false,
@@ -190,7 +214,13 @@
           "flattenedPath": "Blog-Three"
         },
         "type": "Blog",
-        "url": "/blogs/Blog-Three"
+        "url": "/blogs/Blog-Three",
+        "readingTime": {
+          "text": "10 min read",
+          "minutes": 9.41,
+          "time": 564600,
+          "words": 1882
+        }
       },
       "documentHash": "1718476233934",
       "hasWarnings": false,
@@ -229,7 +259,13 @@
           "flattenedPath": "Blog-Two"
         },
         "type": "Blog",
-        "url": "/blogs/Blog-Two"
+        "url": "/blogs/Blog-Two",
+        "readingTime": {
+          "text": "10 min read",
+          "minutes": 9.41,
+          "time": 564600,
+          "words": 1882
+        }
       },
       "documentHash": "1718476192936",
       "hasWarnings": false,

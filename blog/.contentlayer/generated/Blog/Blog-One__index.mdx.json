@@ -30,5 +30,11 @@
     "flattenedPath": "Blog-One"
   },
   "type": "Blog",
-  "url": "/blogs/Blog-One"
+  "url": "/blogs/Blog-One",
+  "readingTime": {
+    "text": "10 min read",
+    "minutes": 9.41,
+    "time": 564600,
+    "words": 1882
+  }
 }

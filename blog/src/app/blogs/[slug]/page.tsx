@@ -1,3 +1,4 @@
+import BlogDetails from "@/components/Blog/BlogDetails";
 import Tag from "@/components/Elements/tag";
 import { allBlogs } from "contentlayer/generated";
 import Image from "next/image"
@@ -50,6 +51,25 @@ export default function Page({ params }: { params: { slug: string } }) {
                     className='group-hover:scale-105 transition-all ease duration-300 aspect-square w-full h-full object-center object-cover rounded-xl'
                 /> */}
             </div>
+
+            <BlogDetails blog={blog} slug={params.slug} />
+
+            <div className="grid grid-cols-12 gap-16 mt-8 px-10">
+
+                <div className="col-span-4">
+                    Table of Contents
+                </div>
+
+                <div className="col-span-4">
+                    Table of Contents
+                </div>
+
+                <div className="col-span-8">
+                    Table of Contents
+                </div>
+
+            </div>
+
         </article>
     );
 };
