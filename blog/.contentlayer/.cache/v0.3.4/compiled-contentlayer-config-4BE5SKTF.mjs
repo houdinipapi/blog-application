@@ -4,6 +4,7 @@ import readingTime from "reading-time";
 var Blog = defineDocumentType(() => ({
   name: "Blog",
   filePathPattern: "**/**/*.mdx",
+  contentType: "mdx",
   fields: {
     title: {
       type: "string",
@@ -57,4 +58,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-Q2UZ3X5J.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-4BE5SKTF.mjs.map

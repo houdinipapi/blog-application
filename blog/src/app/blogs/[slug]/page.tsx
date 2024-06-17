@@ -1,4 +1,5 @@
 import BlogDetails from "@/components/Blog/BlogDetails";
+import RenderMdx from "@/components/Blog/RenderMdx";
 import Tag from "@/components/Elements/tag";
 import { allBlogs } from "contentlayer/generated";
 import Image from "next/image"
@@ -60,9 +61,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                     Table of Contents
                 </div>
 
-                <div className="col-span-4">
-                    Table of Contents
-                </div>
+                <RenderMdx blog={blog} />
 
                 <div className="col-span-8">
                     Table of Contents
