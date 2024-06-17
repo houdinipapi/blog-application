@@ -16,7 +16,7 @@ const RenderMdx = ({blog}: RenderMdxProps) => {
 
     const MDXContent = useMDXComponent(blog.body.code)
     return (
-        <div>
+        <div className='col-span-8 font-ra'>
             <MDXContent components={mdxComponents} />
         </div>
     )
