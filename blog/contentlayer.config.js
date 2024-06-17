@@ -1,7 +1,14 @@
 // contentlayer.config.js
 
-import { makeSource, defineDocumentType } from '@contentlayer/source-files'
+import { makeSource, defineDocumentType } from '@contentlayer/source-files';
 import readingTime from "reading-time";
+import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
+// import remarkMdx from 'remark-mdx';
+// import remarkParse from 'remark-parse';
+// import remarkRehype from 'remark-rehype';
+// import rehypeStringify from 'rehype-stringify';
+
 
 
 const Blog = defineDocumentType(() => ({
@@ -56,4 +63,8 @@ export default makeSource({
   /* options */
   contentDirPath: 'content',
   documentTypes: [Blog],
+  mdx: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [rehypeSlug]
+  },
 })

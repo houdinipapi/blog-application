@@ -1,6 +1,8 @@
 // contentlayer.config.js
 import { makeSource, defineDocumentType } from "@contentlayer/source-files";
 import readingTime from "reading-time";
+import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
 var Blog = defineDocumentType(() => ({
   name: "Blog",
   filePathPattern: "**/**/*.mdx",
@@ -53,9 +55,13 @@ var Blog = defineDocumentType(() => ({
 var contentlayer_config_default = makeSource({
   /* options */
   contentDirPath: "content",
-  documentTypes: [Blog]
+  documentTypes: [Blog],
+  mdx: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [rehypeSlug]
+  }
 });
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-4BE5SKTF.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-6XGHG2BI.mjs.map
